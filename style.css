@@ -1,0 +1,154 @@
+body{
+    /* background-color: red;
+columns: white; */
+
+}
+h1{
+    background-color: blue;
+    color: white;
+    text-align: center;
+font-size: 6rem;
+/* 1rem */
+border: 1rem ridge goldenrod;
+/* border types includes the solid, the dashed and dotted */
+padding-top: 3rem;
+font-family: cursive;
+border-radius: 3rem;
+}
+
+
+
+
+/* img{
+    width: 50%;
+    height: 20rem;
+} */
+.image1{
+    width: 20%;
+    height: 20rem;
+}
+.image2{
+width: 30%;
+height: 20rem;
+}
+.image3{
+    width: 40;
+    height: 20rem;
+}
+
+.GOOGLE{
+    text-align: center;
+}
+.GOOGLE{
+    font-size: 8rem;
+    font-weight: 900;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+span.blue{
+    color: blue;
+}
+span.red{
+    color: red;
+}
+span.gold{
+    color: gold;
+}
+span.green{
+    color: green;
+}
+span.red{
+    color: red;
+}
+
+.boxes{
+    display: flex;
+    flex-direction: row;
+    /* flex direction includesb row, column, row reverse and column reverse */
+    justify-content: space-between;
+/* justify-content includes center, start, end, space-between, space-around and space-even */
+}
+
+.box{
+    background-color: green;
+    color: white;
+    padding: 4rem;
+    margin: 1px;
+    font-size: 2rem;
+}
+.rgb{
+    display: flex;
+}
+
+.rgb div{
+    padding: 5rem;
+    border: 1px gainsboro;
+}
+
+.rgb .red{
+    background-color: red;
+    flex: 1;
+}
+.rgb .green{
+    background-color: green;
+    flex: 1;
+}
+
+.rgb .blue{
+    background-color: blue;
+    flex: 1;
+}
+
+.services{
+    display: flex;
+    justify-content: space-between;
+}
+
+.service{
+    width: 30%;
+}
+
+.service img {
+    width: 100%;
+    height: 25rem;
+}
+
+.service h3,
+.service p{
+  text-align: center;  
+}
+
+.service h3 {
+ font-size: 1.8rem;
+ color: blue;
+ font-weight: bolder;
+ text-transform: capitalize;
+}
+
+.service h3 .p{
+    font-size: 1.3rem;
+}
+
+/* Media Query */
+
+@media ( max-width :950px) {
+.service{
+    flex-direction: column;
+}
+}
+
+@media ( max-width :768px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+    .boxes {
+        flex-direction: column;
+    }
+}
+
+
+/* comment  */
+
+
+
+
